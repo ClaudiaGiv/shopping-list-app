@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Produse</title>
+</head>
+<body>
+
+    <h1>Produse Disponibile</h1>
+    
+    <!-- Bara de Căutare și Dropdown de Sortare -->
+    <form action="/cautare" method="get">
+        <input type="text" name="cautare" placeholder="Caută un produs...">
+        <button type="submit">Caută</button>
+        
+        <!-- Dropdown de Sortare -->
+        <select name="sortare">
+            <option value="pretCrescator">Preț crescător</option>
+            <option value="pretDescrescator">Preț descrescător</option>
+            <option value="nume">Nume</option>
+        </select>
+        <button type="submit">Sortează</button>
+    </form>
+    
+    <!-- Lista de Produse -->
+    <ul>
+        <li>Mouse</li>
+        <li>Tastatura</li>
+        <li>Boxe</li>
+        <li>Mircofon</li>
+        <li>Laptop</li>
+        <li>Tableta</li>
+        <li>Imprimanta</li>
+        <li>Telefon</li>
+        <li>Webcam</li>
+        <li>Monitor</li>
+    </ul>
+
+</body>
+</html>
